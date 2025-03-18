@@ -1,3 +1,4 @@
+import AboutOurGym from "@/components/about-our-gym/about-our-gym";
 import Marquee from "@/components/common/marquee/marquee";
 import MainBanner from "@/components/main/main-banner";
 import WhyChooseUs from "@/components/why-choose-us/why-choose-us";
@@ -11,6 +12,7 @@ export default function Home() {
         culpa ipsam debitis voluptatibus, amet possimus quod nobis officiis quo? Cum, quidem neque.
       </Marquee>
       <WhyChooseUs />
+      <AboutOurGym />
     </div>
   );
 }
