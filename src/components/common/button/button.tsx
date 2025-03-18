@@ -1,6 +1,6 @@
 import React, { ButtonHTMLAttributes, PropsWithChildren } from "react";
 
-type Variant = "primary" | "secondary";
+type Variant = "primary" | "secondary" | "tertiary";
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: Variant;
@@ -8,7 +8,8 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const buttonContainerStyles: Record<Variant, string> = {
   primary: "bg-green-light shadow-[0px_0px_15px_5px_rgba(214,254,78,0.5)] hover:shadow-[0px_0px_15px_10px_rgba(214,254,78,0.5)]",
-  secondary: "bg-transparent text-white hover:border-green-light"
+  secondary: "bg-transparent text-white hover:border-green-light",
+  tertiary: "bg-transparent text-white"
 };
 
 function Button({ variant = "primary", children, ...props }: PropsWithChildren<Props>) {

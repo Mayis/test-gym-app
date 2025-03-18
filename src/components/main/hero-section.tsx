@@ -14,7 +14,7 @@ function HeroSection() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolorum ipsa atque asperiores quis dolor!
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4">
+        <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
           <Button>START NOW</Button>
           <Button variant="secondary">LEARN MORE</Button>
         </div>
