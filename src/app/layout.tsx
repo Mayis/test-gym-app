@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Tektur } from "next/font/google";
 import "./globals.css";
-import Header from "@/common/components/header/header";
+import Header from "@/components/common/header/header";
 
 const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],

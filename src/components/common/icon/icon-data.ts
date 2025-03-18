@@ -1,6 +1,6 @@
 export const ICONS = {
   message: "/icons/message.svg",
-  search: "search.svg",
+  search: "/icons/search.svg",
   "arrow-left": "/icons/arrow-left.svg",
   "arrow-right": "/icons/arrow-right.svg",
   "burger-menu": "/icons/burger-menu.svg",

@@ -79,6 +79,11 @@
     font-family: var(--font-tektur), sans-serif;
     font-weight: 900;
   }
+  .bg-banner {
+    background-image: url("/images/gym-main-wallpaper.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 body {

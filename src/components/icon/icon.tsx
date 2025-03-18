@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { IconName, ICONS } from "@/common/components/icon/icon-data";
+import { IconName, ICONS } from "@/components/common/icon/icon-data";
 
 interface IconProps {
   name: IconName;
